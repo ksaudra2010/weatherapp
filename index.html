@@ -6,17 +6,21 @@
     <title>Weather or Not</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
-    <h1>
+    <br></br>
+    <div class="p-3 mb-2 bg-success text-white"><h1>
         Weather or Not
-    </h1>
-    <input id='Search' placeholder="Enter City Here">
-    <button id='searchButton'>Search</button>
-
+    </h1></div>
+    <br></br>
+    <div id="history"><input id='Search' placeholder="Enter City Here">
+        <button id='searchButton'>Search</button>
+    </div>
+    <br></br>
     <h2>
         <div id="title">Current Conditions</div>
         <div id="temp"></div>
@@ -25,17 +29,75 @@
         <div id="clouds"></div>
     </h2>
     <h3>
+        <br> 
         <div id="title2">FutureCast</div>
-        <div id="temp2"></div>
-        <div id="wind2"></div>
-        <div id="humidity2"></div>
-        <div id="clouds2"></div>
+
     </h3>
-    
+    <div class="card-deck">
+        <div class="card">
+            <div id="forecastclouds1"></div>
+            <div class="card-body">
+                <div id="forecasttemp1"></div>
+                <div id="forecastwind1"></div>
+                <div id="forecasthumidity1"></div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div id="forecastclouds2"></div>
+            <div class="card-body">
+                <div id="forecasttemp2"></div>
+                <div id="forecastwind2"></div>
+                <div id="forecasthumidity2"></div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div id="forecastclouds3"></div>
+            <div class="card-body">
+                <div id="forecasttemp3"></div>
+                <div id="forecastwind3"></div>
+                <div id="forecasthumidity3"></div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div id="forecastclouds4"></div>
+            <div class="card-body">
+                <div id="forecasttemp4"></div>
+                <div id="forecastwind4"></div>
+                <div id="forecasthumidity4"></div>
+
+            </div>
+        </div>
+        <div class="card">
+               <div id="forecastclouds5"></div>
+            <div class="card-body">
+                <div id="forecasttemp5"></div>
+                <div id="forecastwind5"></div>
+                <div id="forecasthumidity5"></div>
+             
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src='script.js'></script>
 </body>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 <footer>Used OpenWeather API</footer>
 
 </html>
