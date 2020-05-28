@@ -1,4 +1,3 @@
-
 h1 {
   align-content: center;
   background-color: black;
@@ -103,9 +102,8 @@ body {
   
     .offset-by-one-half.column,
     .offset-by-one-half.columns     { margin-left: 52%; }
-  
   }
-  
+    
    */
   /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
