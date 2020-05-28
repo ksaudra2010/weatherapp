@@ -69,7 +69,6 @@ $('#searchButton').on('click', function () {
                 $("#forecastclouds" + i).html(`<img src = '${iconURL}'>`);
              }
         });
-
 });
 $('#history').on('click', '.historybutton', function (event) {
     var city = event.target.innerText;
