@@ -1,4 +1,3 @@
-
 // This is our API key & variables
 var APIKey = "&APPID=9a46a84b2a424abb7120b7923fe838aa";
 var searchedcities = [];
