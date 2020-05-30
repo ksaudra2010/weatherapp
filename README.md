@@ -7,4 +7,4 @@ Enter city name and click Search.
 <br>
 It saves the cities you've searched. 
 
-Used OpenWeather API
+Used OpenWeather API & javascript
